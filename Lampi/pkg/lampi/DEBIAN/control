@@ -1,0 +1,9 @@
+Package: lampi
+Architecture: all
+Maintainer: Ashley Roberson
+Depends: python, python-dev, python-pip
+Priority: optional
+Version: 0.1
+Description: Hello, LAMPI!
+Section: misc
+

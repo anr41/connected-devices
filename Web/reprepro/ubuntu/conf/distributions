@@ -1,0 +1,9 @@
+Origin: Ashley Roberson
+Label: Ashley's LAMPI Repo
+Codename: lampi
+Architectures: armhf armel
+Suite: stable
+Components: main non-free contrib
+Description: Local LAMPI Debian Repository
+SignWith: 961146E4
+
