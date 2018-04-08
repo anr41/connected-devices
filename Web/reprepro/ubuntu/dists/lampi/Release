@@ -2,16 +2,16 @@ Origin: Ashley Roberson
 Label: Ashley's LAMPI Repo
 Suite: stable
 Codename: lampi
-Date: Sat, 07 Apr 2018 21:27:21 UTC
+Date: Sat, 07 Apr 2018 21:53:29 UTC
 Architectures: armhf armel
 Components: main non-free contrib
 Description: Local LAMPI Debian Repository
 MD5Sum:
- 0c5fa8a2444da3798f669f5687faeb3a 392 main/binary-armhf/Packages
- 98ee8883a3796cc3639e02ca10289530 307 main/binary-armhf/Packages.gz
+ 333fe3cbb2df563332614117d92e7d3a 392 main/binary-armhf/Packages
+ 5f044318bf08edfd97eaab37fd55ab6e 308 main/binary-armhf/Packages.gz
  b356f600a46964a076585fac18417abc 146 main/binary-armhf/Release
- 0c5fa8a2444da3798f669f5687faeb3a 392 main/binary-armel/Packages
- 98ee8883a3796cc3639e02ca10289530 307 main/binary-armel/Packages.gz
+ 333fe3cbb2df563332614117d92e7d3a 392 main/binary-armel/Packages
+ 5f044318bf08edfd97eaab37fd55ab6e 308 main/binary-armel/Packages.gz
  a1ac8997dac7047d2fbcc5b50b5a6381 146 main/binary-armel/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-armhf/Packages.gz
@@ -26,11 +26,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 contrib/binary-armel/Packages.gz
  4066e060c639aed846663c8a13b14980 149 contrib/binary-armel/Release
 SHA1:
- 724c53a67da14cb4d3ec952bbbba4d0a3f6d9fae 392 main/binary-armhf/Packages
- 2b80eb00b4ad0ce067a341d6a19f30654f3e458e 307 main/binary-armhf/Packages.gz
+ 536c52f07614b2c9b1bd632118e5f19534709ec1 392 main/binary-armhf/Packages
+ 3ac146e5106e06436e46dfedeffe111d574193e8 308 main/binary-armhf/Packages.gz
  0b66bafbddbadfc676f3dd0278450cbb86d62c81 146 main/binary-armhf/Release
- 724c53a67da14cb4d3ec952bbbba4d0a3f6d9fae 392 main/binary-armel/Packages
- 2b80eb00b4ad0ce067a341d6a19f30654f3e458e 307 main/binary-armel/Packages.gz
+ 536c52f07614b2c9b1bd632118e5f19534709ec1 392 main/binary-armel/Packages
+ 3ac146e5106e06436e46dfedeffe111d574193e8 308 main/binary-armel/Packages.gz
  a22ccfe8c7e125f2ea26717aaf93e1c07451dcc9 146 main/binary-armel/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-armhf/Packages.gz
@@ -45,11 +45,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 contrib/binary-armel/Packages.gz
  ddeff4bfeab298f6cfe3c48cd17ef482a028fc08 149 contrib/binary-armel/Release
 SHA256:
- 4accf911b95a8aeb1fcbc405f80e2d2d4ad98a7390a20c9c778ae69e9a9492c7 392 main/binary-armhf/Packages
- 8c74e2ddd435087b709cb665f2cabc2e04be0edc8b48cdc3ebdaa211a853ed26 307 main/binary-armhf/Packages.gz
+ 171350d7c3ca2ce0934421905b1a9a3431c5cfe2bc18ba75bb922bd41bfa149e 392 main/binary-armhf/Packages
+ 8e4b11e082287508854936953a7df2721344d2f0a62e16db044bd565f7ddf97c 308 main/binary-armhf/Packages.gz
  b8214e5fdc269a4801885ec2903d9afc2c360ac5125e25db6b00d47c95ca5b2b 146 main/binary-armhf/Release
- 4accf911b95a8aeb1fcbc405f80e2d2d4ad98a7390a20c9c778ae69e9a9492c7 392 main/binary-armel/Packages
- 8c74e2ddd435087b709cb665f2cabc2e04be0edc8b48cdc3ebdaa211a853ed26 307 main/binary-armel/Packages.gz
+ 171350d7c3ca2ce0934421905b1a9a3431c5cfe2bc18ba75bb922bd41bfa149e 392 main/binary-armel/Packages
+ 8e4b11e082287508854936953a7df2721344d2f0a62e16db044bd565f7ddf97c 308 main/binary-armel/Packages.gz
  187b8736cd3253ffa58f6474061f6128b978df4f5c0344699358b6f5b6b78a67 146 main/binary-armel/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-armhf/Packages.gz

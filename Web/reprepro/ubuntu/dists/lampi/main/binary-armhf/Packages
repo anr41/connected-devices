@@ -2,13 +2,13 @@ Package: lampi
 Architecture: all
 Maintainer: Ashley Roberson
 Depends: python, python-dev, python-pip
-Version: 0.1
+Version: 0.2
 Priority: optional
 Section: misc
-Filename: pool/main/l/lampi/lampi_0.1_all.deb
-Size: 880
-SHA256: bf7494effdd6d73a6a701121a61e299bc94dc0f79fb3f7a43bc7783a4faca448
-SHA1: d39b1faa1445a236b3ffb72a9ebb02f54a7396a4
-MD5sum: 7d79cb84992a19eebb02d607329126c4
+Filename: pool/main/l/lampi/lampi_0.2_all.deb
+Size: 898
+SHA256: cf6189f8c629ab3b56abbce4fc9211634929e65316237f57769a4b1150136b18
+SHA1: ea2e0a576f22ce07588d6c7e8c10d9f8c9e389f3
+MD5sum: fa548b5c371ac47d244664df2a623ad1
 Description: Hello, LAMPI!
 
