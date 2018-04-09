@@ -3,7 +3,7 @@ Architecture: all
 Maintainer: Ashley Roberson
 Depends: python, python-dev, python-pip, supervisor
 Priority: optional
-Version: 0.3
+Version: 0.11
 Description: Hello, LAMPI!
 Section: misc
 

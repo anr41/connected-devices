@@ -214,7 +214,7 @@ class LampiApp(App):
         version = 'Unknown'
 	version_path = os.path.join(os.path.dirname(__file__), '__VERSION__')
 	with open(version_path, 'r') as version_file:
-	  version = version_file.read() 
+  	  version = version_file.read()
 	interface = "wlan0"
         ipaddr = lampi_util.get_ip_address(interface)
         deviceid = lampi_util.get_device_id()
@@ -223,7 +223,7 @@ class LampiApp(App):
                "DeviceID: {}\n"
                "Broker Bridged: {}\n"
                ).format(
-                        version, # version goes here
+                        version,  # version goes here
                         interface,
                         ipaddr,
                         deviceid,
