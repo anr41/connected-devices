@@ -10,7 +10,7 @@ import pigpio
 import lampi_util
 from lamp_common import *
 from analytics import KeenEventRecorder
-
+import os
 
 MQTT_CLIENT_ID = "lamp_ui"
 
@@ -211,7 +211,11 @@ class LampiApp(App):
                      size_hint=(1, 1), auto_dismiss=False)
 
     def update_device_status_popup(self, instance):
-        interface = "wlan0"
+        version = 'Unknown'
+	version_path = os.path.join(os.path.dirname(__file__), '__VERSION__')
+	with open(version_path, 'r') as version_file:
+  	  version = version_file.read()
+	interface = "wlan0"
         ipaddr = lampi_util.get_ip_address(interface)
         deviceid = lampi_util.get_device_id()
         msg = ("Version: {}\n"
@@ -219,7 +223,7 @@ class LampiApp(App):
                "DeviceID: {}\n"
                "Broker Bridged: {}\n"
                ).format(
-                        "",  # version goes here
+                        version,  # version goes here
                         interface,
                         ipaddr,
                         deviceid,
